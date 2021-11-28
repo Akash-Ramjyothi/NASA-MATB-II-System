@@ -1,0 +1,63 @@
+{
+  "SystemMonitoringTasks": [
+    // what // at time (seconds) // timeout //
+    { "list": [ 1, 0, 2 ] },
+    { "list": [ 2, 5, 2 ] },
+    { "list": [ 1, 5, 2 ] },
+    { "list": [ 2, 8, 2 ] },
+    { "list": [ 5, 8, 4 ] },
+    { "list": [ 1, 15, 2 ] },
+    { "list": [ 6, 15, 4 ] },
+    { "list": [ 4, 18, 4 ] },
+    { "list": [ 3, 20, 4 ] }
+  ],
+  "TrackingTasks": [
+  // at time (seconds) // timeout //
+    { "list": [ 0, 4 ] },
+    { "list": [ 7, 4 ] },
+    { "list": [ 14, 4 ] },
+    { "list": [ 21, 4 ] }
+  ],
+  "Communicaion_Tasks": [
+  // what channel ( 0, 1, 2, 3, 4{distractor})// what frequency*100 // at time (seconds) // timeout //
+    { "list": [ 0, 126500, 0, 6 ] },
+    { "list": [ 1, 121250, 7, 6 ] },
+    { "list": [ 2, 121100, 14, 6 ] },
+    { "list": [ 3, 120500, 21, 6 ] },
+    { "list": [ 4, 127500, 28, 6 ] }
+  ],
+  "Resource_Management_Tasks": [
+  // what channel pump // at time (seconds) // timeout //
+    { "list": [ 0, 0, 4 ] },
+    { "list": [ 1, 7, 4 ] },
+    { "list": [ 2, 14, 4 ] },
+    { "list": [ 3, 21, 4 ] },
+    { "list": [ 4, 28, 4 ] },
+    { "list": [ 5, 28, 4 ] },
+    { "list": [ 6, 28, 4 ] },
+    { "list": [ 7, 28, 4 ] }
+  ],
+  "Resource_Management_Tank_Capacity": [
+  // max capacity // initial capacity //
+    { "list": [ 4000, 2500 ] },
+    { "list": [ 4000, 2500 ] },
+    { "list": [ 2000, 1000 ] },
+    { "list": [ 2000, 1000 ] }
+  ],
+  "Resource_Management_Flow_Rate": [
+  // flow rate of pump 1-6 (units per minute) //
+    800,
+    600,
+    800,
+    600,
+    600,
+    600,
+    400,
+    400
+  ],
+  "Resource_Management_Tank_Consumption": [
+  // Tank consumption A & B in units per minute // 
+    800,
+    800
+  ]
+}
