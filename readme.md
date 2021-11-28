@@ -5,9 +5,9 @@
 </p>
 
 ## 📜 Description:
-Designed, developed and implemented various imprvoements for the existing NASA MATB-II (Multi-Attribute Task Battery) and demonstrated in a real-time scenario. The Multi-Attribute Task Battery (MATB-II) is a computer-based task designed to evaluate operator performance and workload. MATB provides a benchmark set of tasks and analogous to activities that aircraft crew-members perform in flight, with freedom to use by non-pilot subjects. The MATB requires the simultaneous performance of monitoring, dynamic resource management, and tracking tasks. The simultaneous performance of multiple tasks is a central feature of the MATB and it is this feature that is consistent with most operational systems and thus makes the task useful for our purposes as a research platform.
+Designed, developed and implemented various improvements for the existing **NASA MATB-II** interface software (Multi-Attribute Task Battery) and demonstrated in a real-time scenario. The Multi-Attribute Task Battery (MATB-II) is a computer-based task designed to evaluate operator performance and workload. MATB provides a benchmark set of tasks and analogous to activities that aircraft crew-members perform in flight, with freedom to use by non-pilot subjects. The MATB requires the simultaneous performance of monitoring, dynamic resource management, and tracking tasks. The simultaneous performance of multiple tasks is a central feature of the MATB and it is this feature that is consistent with most operational systems and thus makes the task useful for our purposes as a research platform.
    
-Developed the project as a part of my Internship at DRDO (Defence Research and Development Organisation)'s Delhi headquarters. The project has been completely tested through their equipments.
+**Developed the project as a part of my Internship at DRDO (Defence Research and Development Organisation)'s Delhi headquarters.**
 
 ## 📽 Sample Demo:
 <p align="center">
@@ -26,12 +26,12 @@ The project also calculates live Workload using 14 channel EEG data and a worklo
 
 ## 🧪 Steps to Install:
 1. Make sure LSL is properly installed also please Allow any network or file access permission any of the files ask thoughout the setup or runtime. 
-2. Create a pyhton 3 virtual environment using the command pyhton3 -m venv env
+2. Create a pyhton 3 virtual environment using the command python3 -m venv env
 3. Activate the virtual environment by env\Scripts\activate
 4. install the requirements.txt file inside the Assets\Python by using pip install -r path_to_file\requirements.txt
 5. Make sure Tensorflow is properly installed, also check for cuda libraries for better performance. 
-6. Modify the eeg data stream (if required) at Assets\Python\WorkloadServer.py line 16 & Line 22
-7. That's it, Setup complete
+6. Modify the eeg data stream (if required) at Assets\Python\WorkloadServer.py line 16 & Line 22.
+7. That's it, Setup complete.
    
 ## 🧪 Steps to Run:
 1. Activate the virtual environment you created
@@ -42,7 +42,7 @@ The project also calculates live Workload using 14 channel EEG data and a worklo
 6. In case of any situation if Unity was quitted forcefully and have to reopen, please restart the server as well, Server can handle if the Task was closed by clicking the Exit button in the task but for any other way, you will require to restart the server as well.
 7. Data will be stored at C:/Users/< Username >/AppData/LocalLow/INMAS-DRDO/Task Battery/
 
-### Additional features implemented:
+### ➕ Additional features implemented:
 1. The grapth view can show multiple graphs if needed in future for plotting other data as well, some modifications to Graph.cs will be required. check Assets\DataDiagram\Documentation
 2. Unity and Server codebase is independednt of number of EEG channels, If you want to change the model, you can simply replace the model.h5 file present in the Assets\Python folder and it'll work fine even if it is of different channel eeg, The only limitation is the input value, current model acceprts data in [[channel list],[channel list], ...] if the other model accepts data in some other form, you will be required to change the calculateWorkload function present in WorkloadServer.py file. 
 3. Unity Code can run both with and wwithout the Server, but server is required to connect to lsl, calculate workload and to store EEG data for future training. 
