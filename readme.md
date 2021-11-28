@@ -1,4 +1,4 @@
-<h1 align="center">NASA MATB-II</h1>
+<h1 align="center">NASA MATB-II System</h1>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/54114888/143779609-5ed943f0-29cb-400c-94a6-d737f8f7ed98.png" width="200" height="">
@@ -12,7 +12,6 @@ Designed, developed and implemented various improvements for the existing **NASA
 ## 📽 Sample Demo:
 <p align="center">
 </p>
-
    
 ## ℹ️ About Project:
 ### Task Battery
