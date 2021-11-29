@@ -10,8 +10,7 @@ Designed, developed and implemented various improvements for the existing **NASA
 **Developed the project as a part of my Internship at DRDO (Defence Research and Development Organisation)'s Delhi headquarters.**
 
 ## 📽 Sample Demo:
-<p align="center">
-</p>
+https://user-images.githubusercontent.com/54114888/143836275-a3f25a1a-3bbe-48fa-bb54-ce2e057bc15c.mp4
    
 ## ℹ️ About Project:
 ### Task Battery
